@@ -1,0 +1,21 @@
+body {
+  font-size:30px;
+}
+
+p {
+  background-color: #000000;
+  color: #FFFFFF;
+  margin-bottom: 0px;
+}
+.social_media {
+  background-color: #444444;
+  font-size: 20px
+}
+
+a:link {color:#FF0000;}      /* unvisited link */
+a:visited {color:#00FF00;}  /* visited link */
+a:hover {color:#AA00FF;}  /* mouse over link */
+a:active {color:#0000FF;}  /* selected link */
+
+@font-face { font-family: 'Proxima_Nova'; src: url(fonts/Proxima_Nova_Bold-webfont.svg); }
+
