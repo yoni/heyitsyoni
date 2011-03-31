@@ -2,16 +2,18 @@
   $(document).ready(init);
  
   function init () {
+
+    // vertically space out the links according to fibonacci sequence
     $('.fib p').each(
         function(index,value) {
           var margin = fib(index + 1) * 15;
-          console.log(margin);
           $(value).css({
             'margin-bottom': margin
           });
         }
       );
 
+    // random horizontal distances for the media links
     $('.social_media').each(
         function(index,value) {
           var margin = index==0? 0 : Math.pow(2,index) * 80;
