@@ -1,5 +1,6 @@
 body {
   font-size:30px;
+  font-family: Helvetica, Verdana, sans-serif; 
 }
 
 p {
@@ -12,10 +13,21 @@ p {
   font-size: 20px
 }
 
+.fib p {
+  height: 50px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+  text-indent: 20px;
+  -webkit-transform: rotate(-15deg);
+  -moz-transform: rotate(-15deg);
+}
+
+a {
+  text-decoration:none
+}
+
 a:link {color:#FF0000;}      /* unvisited link */
 a:visited {color:#00FF00;}  /* visited link */
 a:hover {color:#AA00FF;}  /* mouse over link */
 a:active {color:#0000FF;}  /* selected link */
-
-@font-face { font-family: 'Proxima_Nova'; src: url(fonts/Proxima_Nova_Bold-webfont.svg); }
 
