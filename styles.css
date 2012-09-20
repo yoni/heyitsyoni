@@ -1,6 +1,6 @@
 body {
-  font-size:30px;
-  font-family: Helvetica, Verdana, sans-serif; 
+  font-size:40px;
+  font-family: Georgia;
 }
 
 p {
@@ -16,10 +16,9 @@ p {
 .fib p {
   height: 50px;
   -moz-border-radius: 10px 10px 10px 10px;
-  border-radius: 10px 10px 10px 10px;
   text-indent: 20px;
-  -webkit-transform: rotate(-15deg);
-  -moz-transform: rotate(-15deg);
+  -webkit-transform: rotate(-12deg);
+  -moz-transform: rotate(-12deg);
 }
 
 a {
