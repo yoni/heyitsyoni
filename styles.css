@@ -13,12 +13,10 @@ p {
   font-size: 20px
 }
 
-.fib p {
+.fib a {
   height: 50px;
   -moz-border-radius: 10px 10px 10px 10px;
   text-indent: 20px;
-  -webkit-transform: rotate(-12deg);
-  -moz-transform: rotate(-12deg);
 }
 
 a {

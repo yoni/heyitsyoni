@@ -6,9 +6,10 @@
     // vertically space out the links according to fibonacci sequence
     $('.fib p').each(
         function(index,value) {
-          var margin = fib(index + 1) * 15;
+          var fibonacci_numbers = fib(index + 1) * 15;
           $(value).css({
-            'margin-bottom': margin
+            'margin-bottom': fibonacci_numbers,
+            'margin-left': fibonacci_numbers
           });
         }
       );
