@@ -1,14 +1,15 @@
 body {
-  font-size:40px;
   font-family: Georgia;
 }
 
 p {
+  font-size:50px;
   background-color: #dddddd;
   margin-bottom: 0px;
 }
 
 p.name {
+  font-size:60px;
   background-color: #bbbbbb;
   margin-bottom: 0px;
   text-indent: 20px;
@@ -26,8 +27,7 @@ a {
 
 a:hover {
   color:#000000;
-  margin-left: 0 !important;
-}
+}  /* mouse over link */
 p:hover {
   background-color: #bbbbbb;
 }
