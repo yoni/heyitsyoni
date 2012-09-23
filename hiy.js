@@ -8,7 +8,7 @@
         function(index,value) {
           var fibonacci_number = fib(index + 1) * 15;
           $(value).css({
-            'margin-bottom': fibonacci_number * 1/3,
+            'margin-top': fibonacci_number * 1/3,
             'margin-left': fibonacci_number
           });
         }
