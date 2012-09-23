@@ -6,25 +6,14 @@
     // vertically space out the links according to fibonacci sequence
     $('.fib p').each(
         function(index,value) {
-          var fibonacci_numbers = fib(index + 1) * 15;
+          var fibonacci_number = fib(index + 1) * 15;
           $(value).css({
-            'margin-bottom': fibonacci_numbers,
-            'margin-left': fibonacci_numbers
+            'margin-bottom': fibonacci_number * 1/3,
+            'margin-left': fibonacci_number
           });
         }
       );
 
-    // random horizontal distances for the media links
-    $('.social_media').each(
-        function(index,value) {
-          var margin = index==0? 0 : Math.pow(2,index) * 80;
-          $(value).css({
-            position:'fixed',
-            bottom:'30px',
-            left:margin
-          });
-        }
-      );
   }
 
   // naive fibonnacci. can't handle more than 30
