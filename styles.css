@@ -19,10 +19,6 @@ p.name {
   text-indent: 20px;
 }
 
-.fib {
-  -webkit-transform: rotate(-12deg);
-}
-
 .fib a {
   height: 50px;
   -moz-border-radius: 10px 10px 10px 10px;
